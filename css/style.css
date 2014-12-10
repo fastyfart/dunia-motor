@@ -24,6 +24,21 @@ nav {
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#7d7e7d', endColorstr='#0e0e0e', GradientType=0);
     /* IE6-9 */
 }
+
+#navy{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#navy-link{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.input-group-btn {
+    border-left: 15px solid #212020;
+}
+
 #top-bar {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -78,6 +93,8 @@ nav {
     /* W3C */
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#fcfff4', endColorstr='#b3bead', GradientType=0);
     /* IE6-9 */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 #widgets {
     background-color: black;
@@ -108,6 +125,10 @@ nav {
     border-color: #000;
     border-width: 8px;
     border-style: solid;
+    -moz-border-image: -moz-linear-gradient(top, #45484d 0%, #3a4ed5 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+    border-image: linear-gradient(to bottom, #45484d 0%, #212020 100%);
+    border-image-slice: 1;
 }
 #subscribe {
     background-image: url(../img/str.png);
@@ -172,6 +193,8 @@ nav {
 
 .carousel-control{
     width: 5%;
+    color : red;
+    opacity: 1;
 }
 
 .carouselFix img {
@@ -204,4 +227,8 @@ nav {
     border-right: 0px;
     padding:20px;
     border-radius: 8px;
+}
+
+.caption-product{
+    color : red;
 }
