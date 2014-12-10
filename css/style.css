@@ -165,3 +165,17 @@ nav {
     /* IE6-9 */
     padding: 10px;
 }
+
+.carousel {
+    background-color: transparent;
+}
+
+.carousel-control{
+    width: 5%;
+}
+
+.carouselFix img {
+  width: auto;
+  height: 70px;
+  max-height: 70px;
+}
