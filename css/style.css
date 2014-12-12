@@ -85,21 +85,30 @@ color: #a3a3a3;
     border-bottom: 3px solid #989898;
     border-bottom-right-radius: 6px;
     border-top-right-radius: 6px;
-    background: -moz-linear-gradient(0deg, rgba(192, 192, 192, 0.15) 0%, rgba(128, 128, 128, 1) 100%);
+    background: -moz-linear-gradient(90deg, rgba(192, 192, 192, 0.15) 0%, rgba(155, 155, 155, 1) 250%);
     /* ff3.6+ */
     background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(192, 192, 192, 0.15)), color-stop(100%, rgba(128, 128, 128, 1)));
     /* safari4+,chrome */
-    background: -webkit-linear-gradient(0deg, rgba(192, 192, 192, 0.15) 0%, rgba(128, 128, 128, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(192, 192, 192, 0.15) 0%, rgba(155, 155, 155, 1) 250%);
     /* safari5.1+,chrome10+ */
-    background: -o-linear-gradient(0deg, rgba(192, 192, 192, 0.15) 0%, rgba(128, 128, 128, 1) 100%);
+    background: -o-linear-gradient(90deg, rgba(192, 192, 192, 0.15) 0%, rgba(155, 155, 155, 1) 250%);
     /* opera 11.10+ */
-    background: -ms-linear-gradient(0deg, rgba(192, 192, 192, 0.15) 0%, rgba(128, 128, 128, 1) 100%);
+    background: -ms-linear-gradient(90deg, rgba(192, 192, 192, 0.15) 0%, rgba(155, 155, 155, 1) 250%);
     /* ie10+ */
-    background: linear-gradient(90deg, rgba(192, 192, 192, 0.15) 0%, rgba(128, 128, 128, 1) 100%);
+    background: linear-gradient(90deg, rgba(192, 192, 192, 0.15) 0%, rgba(155, 155, 155, 1) 250%);
     /* w3c */
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#c0c0c0', endColorstr='#808080', GradientType=1);
     /* ie6-9 */
 }
+
+.shop-category > ul >li> a{
+    color : black;
+}
+
+.shop-category > ul >li> a:hover{
+    color : #777;
+}
+
 .content-header {
     background: #fcfff4;
     /* Old browsers */
