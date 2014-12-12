@@ -25,6 +25,22 @@ nav {
     /* IE6-9 */
 }
 
+.navbar-default .navbar-nav > li > a {
+color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+color: #a3a3a3;
+}
+
+#navbar2 > ul > li > a{
+    color: black;
+}
+
+#navbar2 > ul > li > a:hover{
+    color: #a3a3a3;
+}
+
 .well{
     background-color: #fff;
 }
