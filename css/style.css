@@ -224,9 +224,40 @@ color: #a3a3a3;
     background-color: transparent;
 }
 
+#carousel-brand{
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
 .carousel-control{
     width: 5%;
+    opacity: 1;
+}
+
+#carousel-example-generic > .carousel-control{
     opacity: 0.2;
+}
+
+#carousel-example-generic > .carousel-control:hover{
+    opacity: 1;
+}
+
+.carousel-control.left {
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 0%); 
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 0%);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 0%); 
+    background-repeat: repeat-x; 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+}
+
+
+.carousel-control.right {
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 0%); 
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 0%);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 0%); 
+    background-repeat: repeat-x; 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
 }
 
 .carouselFix img {
@@ -237,9 +268,9 @@ color: #a3a3a3;
 
 
 .chevron{
-    width:100%;
+    width:150%;
     position:absolute;
-    top:20%;
+    top:10%;
 }
 
 .chevron-left{left:5%;}
@@ -262,6 +293,7 @@ color: #a3a3a3;
 }
 
 .detail-product{
+    /*
 	-webkit-box-shadow: 0px 5px 20px #777, 0px -5px 20px #777;
 	   -moz-box-shadow: 0px 5px 20px #777, 0px -5px 20px #777;
 	        box-shadow: 0px 5px 20px #777, 0px -5px 20px #777;
@@ -269,6 +301,18 @@ color: #a3a3a3;
     border-right: 0px;
     padding:20px;
     border-radius: 8px;
+    */
+    background-image: url(../img/box-product%20-kategory.png);
+    -webkit-background-size: cover ;
+    -moz-background-size: cover ;
+    -o-background-size: cover ;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    padding-right: 65px;
+    
 }
 
 .caption-product{
@@ -314,7 +358,10 @@ color: #a3a3a3;
 }
 
 
-
+.box-product{
+    background-image: url(../img/box-product%20-kategory.png);
+    overflow-y: visible;
+}
 
 
 
