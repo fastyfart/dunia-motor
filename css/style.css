@@ -45,10 +45,6 @@ color: #a3a3a3;
     background-color: #fff;
 }
 
-.thumbnail{
-    border : 0px;
-}
-
 #navy{
     margin-left: 50px;
     margin-right: 50px;
@@ -282,7 +278,7 @@ color: #a3a3a3;
 
 .box h3{
 	text-align:center;
-	position:relative;
+	position:relative;ail
 	top:80px;
 }
 .box {
@@ -363,10 +359,133 @@ color: #a3a3a3;
     overflow-y: visible;
 }
 
+.product-sub img{
+    width: 50px;
+    height: 50px;
+}
 
+.thumbnail_container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    margin-bottom:20px;
+}
 
+.thumbnail-center {
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+.thumbnail > #img-center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 
+.desc-product{
+    border : 1px solid grey;
+    width: 500px;
+    min-height: 20px;
+    background-color: #B6B6B6;
+}
 
+.desc-product > .body{
+    float: left;
+    background-color: lightpink;
 
+    width: 65%;
+}
 
+.desc-product-footer{
+    background-color: #7f7f7f;
+}
+
+.desc-product > .cart{
+    float: left;
+    background-color: grey;
+    position: relative;
+    width: 35%;
+    overflow: visible;
+}
+
+/* Start of Column CSS */
+#container2 {
+    clear:left;
+    float:left;
+    width:70%;
+    overflow:hidden;
+    background:#7f7f7f; /* column 2 background colour */
+    border: 1px solid #d6d6d6;
+}
+#container1 {
+    float:left;
+    width:100%;
+    background:#c1c1c1; /* column 1 background colour */
+}
+#col1 {
+    float:left;
+    width:65%;
+    position:relative;
+    background:#fff;
+    overflow:hidden;
+    border-right: 1px solid #d6d6d6;
+}
+#col2 {
+    float:left;
+    width:35%;
+    position:relative;
+    overflow:hidden;
+    text-align: center;
+}
+.content-col{
+    padding: 10px;
+}
+/* --> */
+
+#video-review{
+    background-image: url("../img/vidio-review.png");
+    overflow-y: visible;
+    -webkit-background-size: cover ;
+    -moz-background-size: cover ;
+    -o-background-size: cover ;
+    background-size: 100% auto;
+    min-height: 300px;
+    padding-top: 80px;
+    padding-left: 20px;
+}
+
+#product-details{
+    background-image: url("../img/products/product-details.png");
+    overflow-y: visible;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover ;
+    -moz-background-size: cover ;
+    -o-background-size: cover ;
+    background-size: 100% auto;
+    min-height: 300px;
+    padding-top: 50px;
+
+}
+
+#review-summary{
+    background-image: url("../img/products/review-summary.png");
+    background-repeat: no-repeat;
+    overflow-y: visible;
+    -webkit-background-size: cover ;
+    -moz-background-size: cover ;
+    -o-background-size: cover ;
+    background-size: 100% auto;
+    min-height: 300px;
+    padding-top: 80px;
+    padding-left: 20px;
+
+}
+
+.title-heading{
+    background-color: #dddddd;
+    padding:15px;
+}
 
